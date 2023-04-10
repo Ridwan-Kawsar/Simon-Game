@@ -107,7 +107,7 @@ function checkAnswer(currentLevel) {
         console.log("wrong");
 
         //Step 9.1
-        var wrong = new Audio("/sounds/wrong.mp3");
+        var wrong = new Audio("sounds/wrong.mp3");
         wrong.play();
 
         //Step 9.2
